@@ -10,8 +10,9 @@ btn.addEventListener("click", () => {
   
   if (0<sayac ) {
     if (guess == input.value) {
-      center.textContent=` 🎯TEBRİKLER BİLDİNİZ`
-
+      center.textContent=` 🎯TEBRİKLER BİLDİNİZ`;
+    btn.style.display = "none";
+    input.style.display = "none";
     } else if (guess < input.value) {
       center.textContent=`⬇️ Lütfen Tahmininizi Azaltın`
 
@@ -25,8 +26,9 @@ btn.addEventListener("click", () => {
     count.textContent=`Kalan Hak:${sayac}/10`
    
   } if(sayac==0){
-    count.textContent=`Hakkınız bitti`
-
+    center.textContent=`Hakkınız bitti`
+    btn.style.display = "none";
+    input.style.display = "none";
   }
 
 });
