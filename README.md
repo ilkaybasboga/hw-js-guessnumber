@@ -1,6 +1,6 @@
 
 # hw-js-Guess-Number
-https://ilkaybasboga.github.io/hw-sass-Portfolio-Zidane/#
+https://ilkaybasboga.github.io/hw-js-guessnumber/
 
 # Project : Guess-Number Website 
 
